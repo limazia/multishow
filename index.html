@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
@@ -18,7 +17,6 @@
     rel="stylesheet">
   <script type="text/javascript" src="assets/js/svg.min.js"></script>
 </head>
-
 <body>
   <header>
     <div class="container">
@@ -56,7 +54,7 @@
             </h1>
             <p class="description">Tudo começou quando o Matheus, tambem conhecido como Foster ou Mini Buda, se cansou de seu antigo personagem e criou algo que podemos levar a sério como Multishow depois da 00H.</p>
             <div class="mt-3">
-              <a href="https://api.whatsapp.com/send?phone=5519998843008&text=Ol%C3%A1%2C%20posso%20ser%20amigo%20do%20Marcelo%20Pedroso%3F" class="btn btn-started">Ser amigo do Marcelo Pedroso</a>
+              <a href="https://api.whatsapp.com/send?phone=5519998843008&text=Ol%C3%A1%2C%20posso%20ser%20amigo%20do%20Marcelo%20Pedroso%3F" target="_blank" class="btn btn-started">Ser amigo do Marcelo Pedroso</a>
             </div>
           </div>
           <div class="col-md-7">
@@ -82,7 +80,7 @@
               Conta a história de um gordinho de Amparo chamado Acácio de Lima que ao entrar no Discord muta o microfone
               e fica mutado por 3 horas e diz "olá amigos" ao desmutar o microfone
             </p>
-            <a href="#" class="btn btn-primary button button-primary">Ver foto do gordinho</a>
+            <a href="#" class="btn btn-primary button button-primary" data-toggle="modal" data-target="#modalPhoto">Ver foto do gordinho</a>
           </div>
         </div>
       </div>
@@ -329,11 +327,25 @@
       </div>
     </footer>
   </main>
+  <div class="modal fade" id="modalPhoto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content modal-photo">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Gordinho MEI</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/images/monkeys/54E537CE0B38A10BCDE038BEF6EED843.png" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </div>  
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="assets/js/scrollreveal.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

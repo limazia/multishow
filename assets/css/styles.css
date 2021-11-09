@@ -337,3 +337,14 @@ button:active:focus:not(:disabled):not(.disabled) {
   padding: 0 !important;
   margin-bottom: 0 !important;
 }
+
+.modal-photo .modal-body {
+  padding: 0 !important;
+}
+
+.modal-body img {
+  max-width: 100.1%;
+  width: 100.1%;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
