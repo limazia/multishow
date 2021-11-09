@@ -5,8 +5,24 @@
 
   .section-6 a {
     display: -ms-flexbox;
-    display: flex;
+    display: flex !important;
     -ms-flex-direction: row !important;
     flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 763px) {
+  .bg-main {
+    margin-top: 50px;
+  }
+
+  .section-2 img {
+    max-width: 100%;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .col-sm-6 {
+    margin-top: 30px;
   }
 }
