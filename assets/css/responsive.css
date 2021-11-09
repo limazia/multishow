@@ -1,0 +1,12 @@
+@media screen and (max-width: 991px) {
+  .section-4 .cliente-texto {
+    margin-left: 0 !important;
+  }
+
+  .section-6 a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
+}

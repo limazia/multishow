@@ -24,4 +24,28 @@ $(document).ready(function () {
       },
     },
   });
+
+  const sr = ScrollReveal({
+    distance: "60px",
+    duration: 2800,
+    // reset: true,
+  });
+
+  sr.reveal(
+    `.section-1,
+           .section-2,
+           .section-3,
+           .section-4`,
+    {
+      origin: "top",
+    }
+  );
+
+  sr.reveal(`.section-6`, {
+    origin: "left",
+  });
+
+  sr.reveal(`.section-5`, {
+    origin: "right",
+  });
 });

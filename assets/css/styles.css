@@ -1,3 +1,5 @@
+@import url(./responsive.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +15,7 @@ body {
   background: #FFFFFF;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar-track {
@@ -171,7 +174,7 @@ button:active:focus:not(:disabled):not(.disabled) {
   justify-content: center;
   border: solid 1px #f0f0f0;
   height: 100px;
-  transition: ease-out all 0.2s;
+  transition: 0.5s ease;
 }
 
 .section-4 a.link-cliente:hover {
@@ -221,16 +224,23 @@ button:active:focus:not(:disabled):not(.disabled) {
  
 .section-5 .depoimento {
   background-color: #f0f0f0;
+  height: 218px;
   border-radius: 5px;
   display: flex;
   padding: 30px;
 }
 
 .section-5 .depoimento .quote {
+  position: fixed;
+  bottom: 25px;
+  right: 50px;
   max-width: 35px;
 }
 
 .section-5 .depoimento .name {
+  position: fixed;
+  bottom: 12.5px;
+  left: 50px;
   color: #aaaaaa;
 }
 
