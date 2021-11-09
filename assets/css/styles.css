@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+body {
+  background: #FFFFFF;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A339FF;
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+}
+
+button:hover,
+button:focus,
+button:active,
+button:active:focus:not(:disabled):not(.disabled) {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:active:focus:not(:disabled):not(.disabled) {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar-main {
+  padding-top: 30px;
+  background-color: transparent !important;
+}
+
+.navbar-main .navbar-brand,
+.navbar-main .navbar-brand:hover,
+.navbar-main .navbar-brand:focus,
+.navbar-main .navbar-brand:active,
+.navbar-main .navbar-brand:active:focus:not(:disabled):not(.disabled) {
+  font-size: 30px;
+  font-weight: 700;
+  color: #A339FF;
+}
+
+.navbar-main .navbar-brand img {
+  display: inline;
+  max-width: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-main .navbar-toggler {
+  border: none;
+}
+
+.navbar-main .navbar-nav .nav-item {
+  font-weight: bold;
+}
+
+.navbar-main .navbar-nav .nav-item .nav-link {
+  padding: 20px;
+  transition: 0.5s ease;
+}
+
+.btn-started,
+.btn-started:focus,
+.btn-started:active,
+.btn-started:active:focus:not(:disabled):not(.disabled) {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #bd2130;
+  padding: 10px 30px;
+  border-radius: 25px;
+  transition: 0.5s ease;
+}
+
+.btn-started:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 20px;
+  color: #6c757d;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #fc5185;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6 {
+  margin-top: 90px;
+}
+
+.section-2 img {
+  max-width: 100%;
+  width: 70%;
+  height: 50%;
+}
+
+.section-3 a.destaque {
+  display: block;
+  background: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.section-3 a.destaque:hover {
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.03);
+}
+
+.section-3 p {
+  color: #a2a2a2;
+}
+
+.section-3 a.destaque .img-container img {
+  border-radius: 5px;
+  max-height: 200px;
+}
+
+.section-4 a.link-cliente {
+  padding: 0 15px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #f0f0f0;
+  height: 100px;
+  transition: ease-out all 0.2s;
+}
+
+.section-4 a.link-cliente:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.section-4 a.link-cliente img {
+  filter: grayscale(100%);
+  max-height: 70px;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.section-4 a.link-cliente:hover img {
+  filter: none;
+  opacity: 1;
+}
+
+.section-4 .cliente-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.section-4 .cliente-texto .imagem {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  margin-left: -70px;
+  color: #b4b4b4;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.section-4 .cliente-texto .imagem span {
+  color: #364f6b;
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: -10px;
+  font-weight: 900;
+  display: block;
+}
+ 
+.section-5 .depoimento {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  padding: 30px;
+}
+
+.section-5 .depoimento .quote {
+  max-width: 35px;
+}
+
+.section-5 .depoimento .name {
+  color: #aaaaaa;
+}
+
+.section-5 .depoimento .name span {
+  color: #000;
+  font-weight: 700;
+}
+
+.section-6 a {
+  display: flex;
+  align-items: center;
+  color: #A339FF;
+  font-weight: 600;
+}
+
+.section-6 a:hover,
+.section-6 a:focus,
+.section-6 a:active,
+.section-6 a:active:focus:not(:disabled):not(.disabled) {
+  text-decoration: none;
+}
+
+.section-6 .remember {
+  border-radius: 5px;
+  background-color: #364f6b;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 30px;
+}
+
+.section-6 .remember img {
+  width: 80%;
+  display: flex;
+}
+
+.section-6 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-6 ul li {
+  display: flex;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.section-6 ul li:first-child {
+  margin-left: 0;
+}
+
+.section-6 ul li a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: all ease-out 0.2s;
+}
