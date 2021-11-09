@@ -86,9 +86,21 @@ button:active:focus:not(:disabled):not(.disabled) {
   font-weight: bold;
 }
 
+.navbar-main .navbar-nav .active>.nav-link,
+.navbar-main .navbar-nav .nav-link.active,
+.navbar-main .navbar-nav .nav-link.show,
+.navbar-main .navbar-nav .show>.nav-link {
+  color: #dc3545 !important;
+}
+
 .navbar-main .navbar-nav .nav-item .nav-link {
+  color: #000000;
   padding: 20px;
   transition: 0.5s ease;
+}
+
+.navbar-main .navbar-nav .nav-item .nav-link:hover {
+  color: #8f8f8f;
 }
 
 .btn-started,
@@ -221,7 +233,7 @@ button:active:focus:not(:disabled):not(.disabled) {
   font-weight: 900;
   display: block;
 }
- 
+
 .section-5 .depoimento {
   background-color: #f0f0f0;
   height: 218px;
@@ -235,6 +247,13 @@ button:active:focus:not(:disabled):not(.disabled) {
   bottom: 25px;
   right: 50px;
   max-width: 35px;
+}
+
+.section-5 .depoimento .toguro {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  max-width: 200px;
 }
 
 .section-5 .depoimento .name {
@@ -306,4 +325,15 @@ button:active:focus:not(:disabled):not(.disabled) {
   align-items: center;
   background-color: transparent;
   transition: all ease-out 0.2s;
+}
+
+.section-6 .icon-discord {
+  width: 32px;
+  height: 36px;
+}
+
+.cards-monkeys .card-title,
+.cards-monkeys h5 {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
 }
